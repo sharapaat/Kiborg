@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="kk">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Киборг технологиясы | Ғылыми жоба</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<canvas id="bg-canvas"></canvas>
+
+<!-- NAVBAR -->
+<nav id="nav">
+  <div class="logo">
+    <div class="logo-icon">🧬</div>
+    Киборг<span class="logo-accent">Tech</span>
+  </div>
+  <button class="menu-btn" onclick="document.getElementById('navMenu').classList.toggle('open')">☰</button>
+  <ul id="navMenu">
+    <li><a href="#home">Басты бет</a></li>
+    <li><a href="#about">Жоба туралы</a></li>
+    <li><a href="#model">3D Модель</a></li>
+    <li><a href="#history">Тарих</a></li>
+    <li><a href="#survey">Сауалнама</a></li>
+    <li><a href="#compare">Талдау</a></li>
+    <li><a href="#authors">Авторлар</a></li>
+  </ul>
+</nav>
+
+<!-- HERO -->
+<section class="hero" id="home">
+  <div class="hero-badge">
+    <span class="dot"></span>
+    ҒЫЛЫМИ ЖОБА · 2025
+  </div>
+  <h1>
+    Киборг технологиясы:<br>
+    <span class="gradient-text">сезім мүшелерін алмастыру</span><br>
+    мүмкіндігін эксперименттік зерттеу
+  </h1>
+  <p>
+    Жасанды жүйелер мен нейроинтерфейстер арқылы адамның сезім мүшелерін алмастыру мүмкіндіктерін ғылыми-эксперименттік тұрғыдан зерттеу және қоғамның инновациялық технологияға деген көзқарасын анықтау.
+  </p>
+  <div class="hero-btns">
+    <a href="#about" class="btn btn-primary">📖 Жобамен танысу</a>
+    <a href="#model" class="btn btn-outline">🧠 3D Модельді көру</a>
+  </div>
+  <div class="scroll-indicator"></div>
+</section>
+
+<!-- ABOUT -->
+<section id="about">
+  <div class="section-header reveal">
+    <div class="section-tag">Жоба туралы</div>
+    <h2 class="section-title">Зерттеудің <span class="gradient-text">мақсаты мен міндеттері</span></h2>
+    <p class="section-subtitle">Ғылыми негізделген, эксперименттік зерттеу жұмысы</p>
+  </div>
+
+  <div class="info-panel reveal">
+    <h3><span class="icon-circle">🎯</span> Зерттеудің мақсаты</h3>
+    <p>
+      Жасанды жүйелер мен нейроинтерфейстер арқылы адамның сезім мүшелерін алмастыру мүмкіндіктерін ғылыми-эксперименттік тұрғыдан зерттеу және қоғамның бұл инновациялық технологияға деген көзқарасы мен дайындығын анықтау.
+    </p>
+  </div>
+
+  <div class="info-panel reveal">
+    <h3><span class="icon-circle">📋</span> Қойылған міндеттер</h3>
+    <ul class="tasks-list">
+      <li>Киборгтандыру мен нейротехнологиялардың теориялық негіздерін, шығу тарихын және заманауи жетістіктерін ғылыми әдебиеттер негізінде саралау</li>
+      <li>Мектеп оқушылары мен жастар арасында киборг технологияларының болашағы мен олардың қабылдануына қатысты эксперименттік сауалнама жүргізу</li>
+      <li>Алынған деректер мен сараптама нәтижелерін талдап, жасанды сезім жүйелерінің артықшылықтары мен шектеулерін анықтау</li>
+      <li>Зерттеу қорытындысы бойынша бұл саланы дамытуға бағытталған тәжірибелік ұсыныстар әзірлеу</li>
+    </ul>
+  </div>
+</section>
+
+<!-- 3D MODEL -->
+<section id="model">
+  <div class="section-header reveal">
+    <div class="section-tag">Интерактивті</div>
+    <h2 class="section-title">Адам <span class="gradient-text">миының 3D моделі</span></h2>
+    <p class="section-subtitle">Тышқанмен айналдырып, нейроинтерфейсті зерттеңіз</p>
+  </div>
+
+  <div class="model-container reveal" id="brainModel">
+    <div class="model-label">NEURO-INTERFACE · 3D</div>
+  </div>
+</section>
+
+<!-- HISTORY -->
+<section id="history">
+  <div class="section-header reveal">
+    <div class="section-tag">Тарих</div>
+    <h2 class="section-title">Киборг технологиясының <span class="gradient-text">даму жолы</span></h2>
+    <p class="section-subtitle">Негізгі кезеңдер мен жетістіктер</p>
+  </div>
+
+  <div class="timeline">
+    <div class="timeline-item reveal">
+      <div class="timeline-content">
+        <div class="year">1960</div>
+        <h4>«Киборг» терминінің пайда болуы</h4>
+        <p>Манфред Клайнс мен Натан Клайн ғарышты игеру үшін адам-машина жүйесі тұжырымдамасын ұсынды.</p>
+      </div>
+      <div class="timeline-dot"></div>
+    </div>
+
+    <div class="timeline-item reveal">
+      <div class="timeline-content">
+        <div class="year">1978</div>
+        <h4>Алғашқы кохлеарлы имплант</h4>
+        <p>Адамға алғаш рет есту қабілетін қалпына келтіретін имплант орнатылды.</p>
+      </div>
+      <div class="timeline-dot"></div>
+    </div>
+
+    <div class="timeline-item reveal">
+      <div class="timeline-content">
+        <div class="year">2002</div>
+        <h4>Жасанды торлы қабық</h4>
+        <p>Argus II — соқыр адамдарға көру мүмкіндігін қайтаратын алғашқы жасанды көз жүйесі.</p>
+      </div>
+      <div class="timeline-dot"></div>
+    </div>
+
+    <div class="timeline-item reveal">
+      <div class="timeline-content">
+        <div class="year">2016</div>
+        <h4>Нейроинтерфейстер секірісі</h4>
+        <p>Brain-Computer Interface технологиялары ми белсенділігін нақты уақытта оқуға мүмкіндік берді.</p>
+      </div>
+      <div class="timeline-dot"></div>
+    </div>
+
+    <div class="timeline-item reveal">
+      <div class="timeline-content">
+        <div class="year">2024</div>
+        <h4>Neuralink жетістіктері</h4>
+        <p>Адам миына имплант орнатылып, ой арқылы құрылғыны басқару жүзеге асты.</p>
+      </div>
+      <div class="timeline-dot"></div>
+    </div>
+
+    <div class="timeline-item reveal">
+      <div class="timeline-content">
+        <div class="year">2025+</div>
+        <h4>Болашақ</h4>
+        <p>Толық сезім мүшелерін алмастыратын жасанды жүйелер мен бионикалық интеграция.</p>
+      </div>
+      <div class="timeline-dot"></div>
+    </div>
+  </div>
+</section>
+
+<!-- STATS -->
+<section>
+  <div class="section-header reveal">
+    <div class="section-tag">Статистика</div>
+    <h2 class="section-title">Зерттеу <span class="gradient-text">көрсеткіштері</span></h2>
+  </div>
+
+  <div class="stats-grid">
+    <div class="stat-box reveal">
+      <span class="stat-number" data-target="150">0</span>
+      <div class="stat-label">Сауалнамаға қатысқан респондент</div>
+    </div>
+    <div class="stat-box reveal">
+      <span class="stat-number" data-target="78">0</span>
+      <div class="stat-label">% Технологияны қолдайды</div>
+    </div>
+    <div class="stat-box reveal">
+      <span class="stat-number" data-target="12">0</span>
+      <div class="stat-label">Зерттелген ғылыми дереккөз</div>
+    </div>
+    <div class="stat-box reveal">
+      <span class="stat-number" data-target="5">0</span>
+      <div class="stat-label">Талданған жасанды сезім жүйесі</div>
+    </div>
+  </div>
+</section>
+
+<!-- SURVEY -->
+<section id="survey">
+  <div class="section-header reveal">
+    <div class="section-tag">Эксперимент</div>
+    <h2 class="section-title">Интерактивті <span class="gradient-text">сауалнама</span></h2>
+    <p class="section-subtitle">Киборг технологиясы туралы өз көзқарасыңызды білдіріңіз</p>
+  </div>
+
+  <div class="survey-box reveal">
+    <h3>🤖 Киборг технологиясы туралы сауалнама</h3>
+
+    <div class="survey-question">
+      <p>1. Киборг технологиялары адамзатқа пайдалы деп ойлайсыз ба?</p>
+      <div class="survey-options">
+        <label class="survey-option"><input type="radio" name="q1" value="yes"> Иә, бұл болашақтың технологиясы</label>
+        <label class="survey-option"><input type="radio" name="q1" value="maybe"> Бәлкім, бірақ қауіпті жақтары бар</label>
+        <label class="survey-option"><input type="radio" name="q1" value="no"> Жоқ, табиғи жолды ұстану керек</label>
+      </div>
+    </div>
+
+    <div class="survey-question">
+      <p>2. Қай сезім мүшесін алмастыруды бірінші кезекте маңызды деп санайсыз?</p>
+      <div class="survey-options">
+        <label class="survey-option"><input type="radio" name="q2" value="eye"> Көру</label>
+        <label class="survey-option"><input type="radio" name="q2" value="ear"> Есту</label>
+        <label class="survey-option"><input type="radio" name="q2" value="touch"> Сипап сезу</label>
+        <label class="survey-option"><input type="radio" name="q2" value="all"> Барлығы бірдей маңызды</label>
+      </div>
+    </div>
+
+    <div class="survey-question">
+      <p>3. Өзіңізге нейроимплант орнатуға дайынсыз ба?</p>
+      <div class="survey-options">
+        <label class="survey-option"><input type="radio" name="q3" value="yes"> Иә, дайынмын</label>
+        <label class="survey-option"><input type="radio" name="q3" value="if"> Тек медициналық қажеттілік болса</label>
+        <label class="survey-option"><input type="radio" name="q3" value="no"> Жоқ, дайын емеспін</label>
+      </div>
+    </div>
+
+    <button class="btn btn-primary btn-full" onclick="submitSurvey()">Нәтижені көру →</button>
+
+    <div class="survey-result" id="surveyResult">
+      <h4>✅ Жауабыңыз қабылданды!</h4>
+      <p id="resultText"></p>
+    </div>
+  </div>
+</section>
+
+<!-- COMPARE -->
+<section id="compare">
+  <div class="section-header reveal">
+    <div class="section-tag">Талдау</div>
+    <h2 class="section-title">Артықшылықтар мен <span class="gradient-text">шектеулер</span></h2>
+    <p class="section-subtitle">Жасанды сезім жүйелерінің екі жағы</p>
+  </div>
+
+  <div class="compare-grid">
+    <div class="compare-box compare-pros reveal">
+      <h3>✅ Артықшылықтар</h3>
+      <ul>
+        <li>Жоғалған сезім мүшелерін қалпына келтіру мүмкіндігі</li>
+        <li>Мүгедектігі бар адамдардың өмір сапасын жақсарту</li>
+        <li>Адам қабілеттерін кеңейту (инфрақызыл көру, ультрадыбыс есту)</li>
+        <li>Нейродегенеративті ауруларды емдеу перспективасы</li>
+        <li>Ғылым мен медицинаның жаңа серпілісі</li>
+      </ul>
+    </div>
+
+    <div class="compare-box compare-cons reveal">
+      <h3>⚠️ Шектеулер</h3>
+      <ul>
+        <li>Жоғары құны мен қолжетімсіздігі</li>
+        <li>Этикалық және діни мәселелер</li>
+        <li>Инфекция мен биологиялық үйлесімсіздік қаупі</li>
+        <li>Жеке деректердің қауіпсіздігі мәселесі</li>
+        <li>Ұзақ мерзімді әсерлерінің белгісіздігі</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<!-- CONCLUSION -->
+<section>
+  <div class="conclusion reveal">
+    <h3>📌 Зерттеу қорытындысы</h3>
+    <p>
+      Киборг технологиясы — адамзаттың сезім мүшелерін алмастыру мен қалпына келтіруде үлкен әлеуетке ие сала. Жүргізілген эксперименттік сауалнама нәтижелері жастардың бұл технологияға деген оң көзқарасын көрсетті.
+    </p>
+    <p>
+      Алайда этикалық, экономикалық және қауіпсіздік мәселелерін шешу үшін ғылыми зерттеулер мен халықаралық ынтымақтастық қажет. Болашақта нейроинтерфейстер мен жасанды сезім жүйелері медицина мен адам өмірінің ажырамас бөлігіне айналады деп күтілуде.
+    </p>
+  </div>
+</section>
+
+<!-- AUTHORS -->
+<section id="authors">
+  <div class="section-header reveal">
+    <div class="section-tag">Авторлар</div>
+    <h2 class="section-title">Жоба <span class="gradient-text">авторлары</span></h2>
+  </div>
+
+  <div class="authors">
+    <div class="author-card reveal">
+      <div class="author-avatar">👩‍🔬</div>
+      <h4>Бекназар Томирис Нұрланқызы</h4>
+      <div class="role">11-сынып оқушысы · Зерттеуші</div>
+      <p class="author-info">
+        Жаратылыстану-математикалық бағыт<br>
+        Биология және тіршілік туралы ғылымдар · Биохимия
+      </p>
+    </div>
+
+    <div class="author-card reveal">
+      <div class="author-avatar">👩‍🏫</div>
+      <h4>Бекен Назгүл Бекенқызы</h4>
+      <div class="role">Ғылыми жетекші · Биология мұғалімі</div>
+      <p class="author-info">
+        Педагог-модератор<br>
+        Ғылыми жобаны жетекшілік етуші
+      </p>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div class="logo logo-center">
+    <div class="logo-icon">🧬</div>
+    КиборгTech
+  </div>
+  <p><strong>«Киборг технологиясы: адамның сезім мүшелерін алмастыру мүмкіндігін эксперименттік зерттеу»</strong></p>
+  <p>Ғылыми жоба · 2025 · Барлық құқықтар қорғалған</p>
+</footer>
+
+<!-- Three.js -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+<script src="script.js"></script>
+
+</body>
+</html>
